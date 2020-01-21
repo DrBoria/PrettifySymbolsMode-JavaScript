@@ -1,0 +1,131 @@
+        {
+            "language": "javascript",
+            "substitutions": [
+                {
+                    "ugly": "function \\(",
+                    "pretty": "FUN ",
+                    "style": {
+                        "color": "#da70d1",
+                        "hackCSS": "font-weight: 600;"
+                    }
+                },
+                {
+                    "ugly": "switch \\(",
+                    "pretty": "switch ",
+                    "style": {
+                        "color": "#da70d1",
+                        "hackCSS": "font-weight: 600;"
+                    }
+                },
+                {
+                    "ugly": "if \\(",
+                    "pretty": "if ",
+                    "style": {
+                        "color": "#da70d1",
+                        "hackCSS": "font-weight: 600;"
+                    }
+                },
+                {
+                    "ugly": "for \\(",
+                    "pretty": "for ",
+                    "style": {
+                        "color": "#da70d1",
+                        "hackCSS": "font-weight: 600;"
+                    }
+                },
+                {
+                    "ugly": "while \\(",
+                    "pretty": "while ",
+                    "style": {
+                        "color": "#da70d1",
+                        "hackCSS": "font-weight: 600;"
+                    }
+                },
+                {
+                    "ugly": "} else if \\(",
+                    "pretty": "elif ",
+                    "style": {
+                        "color": "#da70d1",
+                        "hackCSS": "font-weight: 600;"
+                    },
+                },
+                {
+                    "ugly": "\\) {",
+                    "pretty": ":",
+                    "style": {
+                        "color": "#da70d1",
+                        "hackCSS": "font-weight: 600;"
+                    }
+                },
+                {
+                    "ugly": "\\(\\) {",
+                    "pretty": ":",
+                    "pre": "[A-z]+",
+                    "style": {
+                        "color": "#da70d1",
+                        "hackCSS": "font-weight: 600;"
+                    }
+                },
+                {
+                    "ugly": "} catch \\(",
+                    "pretty": "CATCH ",
+                    "style": {
+                        "color": "#da70d1",
+                        "hackCSS": "font-weight: 600;"
+                    }
+                },
+                {
+                    "ugly": "try {",
+                    "pretty": "TRY:",
+                    "style": {
+                        "color": "#da70d1",
+                        "hackCSS": "font-weight: 600;"
+                    }
+                },
+                {
+                    "ugly": "\\) return",
+                    "pretty": " return"
+                },
+                {
+                    "ugly": "{/n",
+                    "pretty": ":"
+                },
+                {
+                    "ugly": "\\(",
+                    "pretty": " ",
+                    "pre": "function\\s[A-z]+"
+                },
+                {
+                    "ugly": "} else {",
+                    "pretty": "else:",
+                    "style": {
+                        "color": "#da70d1",
+                        "hackCSS": "font-weight: 600;"
+                    }
+                },
+                {
+                    "ugly": "&&",
+                    "pretty": "AND",
+                    "style": {
+                        "color": "#FF0000",
+                        "hackCSS": "font-weight: 600;",
+                    },
+                },
+                {
+                    "ugly": "\\|\\|",
+                    "pretty": "OR",
+                    "style": {
+                        "color": "#FF0000",
+                        "hackCSS": "font-weight: 600;"
+                    },
+                },
+                {
+                    "ugly": ";$",
+                    "pretty": " ",
+                },
+                {
+                    "ugly": " *}$",
+                    "pretty": " ",
+                },
+            ]
+        }
