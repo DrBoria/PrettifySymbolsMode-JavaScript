@@ -1,13 +1,16 @@
-        {
+{
             "language": "javascript",
             "substitutions": [
                 {
-                    "ugly": "function \\(",
-                    "pretty": "FUN ",
-                    "style": {
-                        "color": "#da70d1",
-                        "hackCSS": "font-weight: 600;"
-                    }
+                    "ugly": "\\(",
+                    "pretty": " ",
+                    "pre": "function\\s[A-z]*"
+                },
+                {
+                    "ugly": "\\(",
+                    "pretty": " ",
+                    "pre": "^\\s*[A-z]*",
+                    "post": ".*\\).*{"
                 },
                 {
                     "ugly": "switch \\(",
@@ -89,11 +92,6 @@
                 {
                     "ugly": "{/n",
                     "pretty": ":"
-                },
-                {
-                    "ugly": "\\(",
-                    "pretty": " ",
-                    "pre": "function\\s[A-z]+"
                 },
                 {
                     "ugly": "} else {",
